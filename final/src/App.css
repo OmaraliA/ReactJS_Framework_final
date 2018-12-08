@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  background-color: #FFCC00;
+  padding: 20px;
+  margin: 0;
+}
+ h2, p, ul, li {
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-left: 600px;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 20px;
+
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+  height: 80px;
+  width: 100%;
+  
+}
+ul.header li a {
+  
+  font-weight: bold;
+  text-decoration: none;
+ 
+  display: inline-block;
+  width: 150px; 
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+  height: 1500px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+.menuBar {
+  
+  margin-left: 330px;
+}
+
+
+.flex {
+display: -webkit-flex; 
+-webkit-justify-content: flex-start;
+display: flex;
+justify-content: center;
+
+}
+
+.flex-container > div {
+
+  padding-bottom: 20px;
+
+}
+
+.btn {
+  float:right;
+}
+
+
+h1{
+  text-align: center;
+  margin: 32px 0;
+  color: #555;
+  font-weight: 300;
+}
+.board {
+  display: flex;
+  width: 450px;
+  height: 450px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border: 5px solid #ddd;
+  margin: 32px auto 64px auto;
+  background-color: #42d7f4;
+}
+
+.game-board {
+  background-color: #42d7f4;
+  height: 500px;
+  width: 800px;
+ 
+
+}
+
+.square {
+  height: 150px;
+  width: 150px;
+  box-sizing: border-box;
+  border: 5px solid #ddd;
+  font-size: 5em;
+ 
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  background-color: white;
+}
+
+.square:hover {
+  cursor: pointer;
+  background-color: #4099ff;
+  color: #fff;
+}
+
+.winner{
+  text-align: center;
+  color: #0CC90C;
+}
